@@ -1,0 +1,37 @@
+# --- Build & Output Artifacts ---
+build/
+Debug/
+Release/
+cmake-build-*/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+
+# --- Test Executables ---
+test_runner
+*.exe
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- STM32CubeIDE / Eclipse ---
+.cproject
+.project
+.settings/
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
